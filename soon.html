@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Contact Me</title>
+        <title>Eric's CSS Portfolio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,10 +17,10 @@
     <header>
         <nav class="fixed-top navBar" style="background-color: #3f3f3f;">
             <ul>
-                <li><a href="index.html">ERIC CHON</a></li>
+                <li><a class="active" href="#home">ERIC CHON</a></li>
                 <li><a href="work.html">WORK</a></li>
                 <li><a href="resume.html">RESUME</a></li>
-                <li><a class="active" href="#contact">CONTACT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
     </header>
@@ -35,37 +35,13 @@
         <div class="stripes-purple-h"></div>
     </div>
 
-    <!-- Wrapper container -->
-    <div class="d-flex my-5 justify-content-center">
-        <div class="contact">
-        <form id="contactForm" data-sb-form-api-token="0184c2b7-1221-4ca2-b7de-866e05a05a55">
-            <div class="form-floating mb-3">
-                <input class="form-control" id="yourEmail" type="email" placeholder="Your Email" style="width: 500px;" data-sb-validations="required,email" />
-                <label for="yourEmail">Your Email</label>
-                <div class="invalid-feedback" data-sb-feedback="yourEmail:required">Your Email is required.</div>
-                <div class="invalid-feedback" data-sb-feedback="yourEmail:email">Your Email Email is not valid.</div>
-            </div>
-            <div class="form-floating mb-3">
-                <textarea class="form-control" id="dropMeALine" type="text" placeholder="Drop me a line!" style="height: 10rem; width: 500px;" data-sb-validations="required"></textarea>
-                <label for="dropMeALine">Drop me a line!</label>
-                <div class="invalid-feedback" data-sb-feedback="dropMeALine:required">Drop me a line! is required.</div>
-            </div>
-            <div class="d-none" id="submitSuccessMessage">
-                <div class="text-center mb-3">
-                    <div class="fw-bolder">Form submission successful!</div>       
-                </div>
-            </div>
-            <div class="d-none" id="submitErrorMessage">
-                <div class="text-center text-danger mb-3">Error sending message!</div>
-            </div>
-            <div class="d-grid my-5">
-                <button class="btn btn-primary btn-lg disabled" style="width: 500px;" id="submitButton" type="submit">Submit</button>
-            </div>
-        </form>
+    <hero>
+        <!-- main image -->
+        <div class="hero" style="padding-top: 285px;">
+            <div class="heroText">coming soon</div>
         </div>
-    </div>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    
+    </hero>
+
     <footer class="fixed-bottom footer mt-auto p-2">      
         <div class="d-flex justify-content-center align-items-center" style="font-size: 10px;">
           <div style="text-decoration: none;">    
