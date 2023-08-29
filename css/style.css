@@ -202,6 +202,17 @@ td img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* Contact Form */
+.btn.btn-primary {
+    background-color: #fab223 !important;
+    border-color: #fab223 !important;
+}
+
+.btn:disabled{
+    background-color: lightgrey !important;
+    border-color: lightgray !important;
+}
+
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
