@@ -1,7 +1,25 @@
 @font-face {
     font-family: 'Salt';
-    src: url('fonts/salt.woff2') format('woff2'),
-        url('fonts/salt.woff') format('woff');
+    src: url('../fonts/salt.woff2') format('woff2'),
+        url('../fonts/salt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hanseif';
+    src: url('../fonts/hansief-webfont.woff') format('woff'),
+        url('../fonts/hansief-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hanseif-Rough';
+    src: url('../fonts/hansief_rough-webfont.woff') format('woff'),
+        url('../fonts/hansief_rough-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
