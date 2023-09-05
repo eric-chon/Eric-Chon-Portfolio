@@ -286,19 +286,43 @@ td img {
     border-color: lightgray !important;
 }
 
-/* Wayfynder */
-.wayfynderHero {
+/* Work Constants */
+.workHero {
     display: flex;
     position: relative;
     padding-top: 90px;
     align-items: center;
     color: white;
 }
-.wayfynderHero img {
+.workHero img {
     display: block;
     margin: auto;
     border-radius: 25px;
 }
+.workText {
+    margin: auto;
+    text-align: left;
+    color: black;
+    font-size: 14px;
+    max-width: 650px;
+    padding-top: 35px;
+    z-index: 1;
+}
+.workText H1 {
+    margin: auto;
+    text-align: left;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #4a4a4a;
+    font-size: 40px;
+    font-weight: bold;
+}
+.workText a {
+    text-decoration: none;
+    color: #fab223 !important;
+}
+
+/* Wayfynder */
 .wayfynderTitle {
     font-family: 'Salt', sans-serif;
     position: absolute;
@@ -310,28 +334,21 @@ td img {
     transform: translate(-50%, -50%);
     animation: fadeIn 2s;
 }
-.wayfynderText {
-    margin: auto;
-    text-align: left;
-    color: black;
-    font-size: 14px;
-    max-width: 650px;
-    padding-top: 35px;
-    z-index: 1;
-}
-.wayfynderText H1 {
-    margin: auto;
-    text-align: left;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    color: #4a4a4a;
-    font-size: 40px;
+
+
+/* Game Plan */
+.gameplanTitle {
+    font-family: 'Hanseif-Rough', sans-serif;
+    position: absolute;
+    top: 107%;
+    left: 50%;
+    font-size: 45px;
     font-weight: bold;
+    text-shadow: 0px 0px 5px #3f3f3f;
+    transform: translate(-50%, -50%);
+    animation: fadeIn 2s;
 }
-.wayfynderText a {
-    text-decoration: none;
-    color: #fab223 !important;
-}
+
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
